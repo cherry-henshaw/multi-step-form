@@ -1,0 +1,249 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  padding: 10px 0;
+}
+
+.container-wrapper{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.container-wrapper .bg-img{
+  width: 30%;
+  /* height: 400px; */
+  margin-right: 10%;
+  margin-left: 2%;
+  padding: 30% 25px;
+  position: relative;
+  background-image: url(../assets/bg-sidebar-desktop.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: white;
+}
+
+.container-wrapper .div-1{
+ position: absolute;
+ top: 30px;
+ left: 40px;
+ font-size: 13px;
+}
+
+.container-wrapper .div-1 .step{
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.container-wrapper .div-1 .step{
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.container-wrapper .div-1 .step .first-step{
+  width: 20%;
+  /* margin-right: 10%; */
+}
+
+.container-wrapper .div-1 .step .first-step .round{
+  border-radius: 20px;
+  border: 1px solid rgb(222, 222, 161);
+  padding: 3px 7px;
+  position: relative;
+  top: 7px;
+  right: 15px;
+}
+
+.container-wrapper .div-1 .step .second-step{
+  width: 80%;
+}
+
+.container-wrapper .div-1 .step .second-step ul li{
+  list-style: none;
+}
+
+.container-wrapper .div-1 .step .second-step ul li a{
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(123, 101, 67);
+}
+
+.container-wrapper .div-2{
+  width: 58%;
+  position: relative;
+ top: 50px;
+
+}
+
+.container-wrapper .div-2 h3{
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.container-wrapper .div-2 p{
+  font-size: 0.8rem;
+  margin-bottom: 25px;
+}
+
+.container-wrapper .div-2 .form-holder form input{
+  width: 80%;
+  padding: 10px 0 10px 10px;
+  border-radius: 8px;
+  border: 2px solid rgb(176, 174, 174);
+  margin-bottom: 20px;
+  font-size: 15px;
+  
+}
+
+.container-wrapper .div-2 .form-holder form label{
+  font-size: 13px;
+}
+
+.container-wrapper .btn-div{
+  width: 100%;
+  /* text-align: end; */
+  margin-top: 24%;
+  position: relative;
+ 
+}
+
+.container-wrapper .btn-div a{
+ position: absolute;
+ right: 20%;
+ bottom: 1px;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  border-radius: 6px;
+  padding: 12px 25px;
+  
+}
+
+
+/* select plan section */
+
+.container-wrapper .div-2 .title{
+ position: relative;
+ right: -15px;
+}
+
+.container-wrapper .div-2 .cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.container-wrapper .div-2 .cards .card-1{
+  width: 25%; 
+  background-color: aliceblue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin-right: 2%;
+  margin-left: 3%;
+  padding: 5px;
+}
+
+.container-wrapper .div-2 .cards .card-1 .img{
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+.container-wrapper .div-2 .cards .card-1 .img img{
+  width: 35%;
+  
+}
+
+.container-wrapper .div-2 .cards .card-1 .text{
+  
+}
+
+.container-wrapper .div-2 .cards .card-2{
+  width: 25%; 
+  background-color: aliceblue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin-right: 2%;
+  padding: 5px;
+  position: relative;
+}
+
+.container-wrapper .div-2 .cards .card-2 .img{
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+.container-wrapper .div-2 .cards .card-2 .img img{
+  width: 35%;
+  
+}
+
+
+.container-wrapper .div-2 .cards .card-2 .text{
+  
+}
+
+.container-wrapper .div-2 .cards .card-1 .text p{
+  position: relative;
+  top: 25px;
+  
+  
+}
+
+.container-wrapper .div-2 .cards .card-2 .text p{
+  position: relative;
+  top: 25px;
+  
+  
+}
+
+.container-wrapper .div-2 .cards .card-3{
+  width: 25%;
+  background-color: aliceblue;
+  border: 2px solid blue; 
+  border-radius: 5px;
+  margin-right: 18%;
+  padding: 5px;
+}
+
+.container-wrapper .div-2 .cards .card-3 .img{
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+.container-wrapper .div-2 .cards .card-3 .img img{
+  width: 35%;
+  
+}
+
+.container-wrapper .div-2 .cards .card-3 .text{
+  
+}
+
+.container-wrapper .div-2 .cards .card-3 .text p{
+  position: relative;
+  top: 25px;
+  
+  
+}
+
+.container-wrapper .div-2 .mini-div{
+  width: 80%;
+  margin-left: 3%;
+  border: 2px solid black;
+}
+

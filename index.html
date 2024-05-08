@@ -4,40 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Multi-step form</title>
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <div class="container-wrapper">
-      <div> 
-        <ol>
-          <div>
-            <li><span><a href="index.html">Step 1</a></span> <br>YOUR INFO</li>
+      <div class="bg-img">
+        <div class="div-1"> 
+          <div class="step">
+            <div class="first-step">
+              <span class="round">1</span>
+            </div>
+
+            <div class="second-step">
+              <ul>
+                <li><span><a href="index.html">Step 1</a></span> <br>YOUR INFO</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <li><span><a href="select-plan.html">Step 2</a></span> <br>SELECT PLAN</li>
+
+          <div class="step">
+            <div class="first-step">
+              <span class="round">2</span>
+            </div>
+
+            <div class="second-step">
+              <ul>
+                <li><span><a href="select-plan.html">Step 2</a></span> <br>SELECT PLAN</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <li><span><a href="add-ons.html">Step 3</a></span> <br>ADD-ONS</li>
+
+          <div class="step">
+            <div class="first-step">
+              <span class="round">3</span>
+            </div>
+            <div class="second-step">
+              <ul>
+                <li><span><a href="add-ons.html">Step 3</a></span> <br>ADD-ONS</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <li><span><a href="#">Step 4</a></span> <br>SUMMARY</li>
+
+          <div class="step">
+            <div class="first-step">
+              <span class="round">4</span>
+            </div>
+            <div class="second-step">
+              <ul>
+                <li><span><a href="#">Step 4</a></span> <br>SUMMARY</li>
+              </ul>
+            </div>
             
           </div>
-         
-        </ol>
+        </div>
       </div>
-      <div>
+      
+      <div class="div-2">
         <h3>Personal info</h3>
         <p>Please provide your name email and phone number</p>
         <div class="form-holder">
           <form>
             <label for="name">Name</label>
             <br>
-            <input type="text" name="" id="">
+            <input type="text" name="" id="" placeholder="Venessa Mint">
             <br>
             <label for="email">Email Address</label>
             <br>
-            <input type="email" name="" id="">
+            <input type="email" name="" id="" placeholder="VenessaMint@">
             <br>
             <label for="">Phone Number</label>
             <br>
